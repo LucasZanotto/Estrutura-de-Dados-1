@@ -32,24 +32,24 @@ foreach (string m in months)
     Console.WriteLine(m);
 }
 
+// Tarefa da aula 
+
 int[] numeros = new int[100];
 
-for (int i = 0; i < 100; i++)
-{
-    numeros[i] = i + 1;
+int counter = 1;
+
+while(counter <= 100) { 
+    numeros[counter - 1] += counter;
+    counter++;
 }
 
 List<int> listaPares = new List<int>();
 List<int> listaImpares = new List<int>();
 
-foreach (int numero in numeros)
-{
-    if (numero % 2 == 0)
-    {
+foreach (int numero in numeros) {
+    if (numero % 2 == 0) {
         listaPares.Add(numero);
-    }
-    else
-    {
+    } else {
         listaImpares.Add(numero);
     }
 }
