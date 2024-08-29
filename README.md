@@ -35,5 +35,5 @@ Ler o capitulo 1 do Livro. </br>
 
 ## Atividade
 
-Escreva um algoritmo que armazena em dois vetores separados os primeiros 10 numeros pares e impares.
+Escreva um algoritmo que armazena em dois vetores separados os primeiros 100 numeros pares e impares.
 No final, imprima a sequência armazena em cada um deles.
